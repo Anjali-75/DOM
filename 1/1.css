@@ -1,0 +1,57 @@
+body{
+    margin:0;
+}
+
+.form{
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#common{
+    display: flex;    
+    height:2rem;
+    margin-right:1rem;
+    margin-top: 1rem;
+    background-color: #8ecae6;
+    padding: 9px;
+    font-size: 20px;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+}
+
+#common:hover{
+    opacity: 0.7;
+}
+
+#common:nth-child(even){
+    background-color: #f8eee3;
+}
+
+#text{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 12px;
+}
+
+.btn{
+    width: 10rem;
+    height: 2.2rem;
+    margin-left: 1rem;
+    background-color: #1e4559;
+    border-radius: 12px;
+    color: white;
+}
+
+.btn:focus{
+    background-color: black;
+}
+
+h1{
+    
+    text-align: center;
+    margin: 5rem ;
+
+}
